@@ -1,0 +1,50 @@
+.div_card {
+  background-color: wheat;
+  width: 100px;
+  height: 150px;
+  box-shadow: 2px 2px #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: x-large;
+}
+
+#first {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin: 30px;
+}
+
+#button {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  font-family: 'Source Sans 3', sans-serif;
+  color: black;
+  font-size: 15px;
+}
+
+h1 {
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Source Sans 3', sans-serif;
+}
+ul {
+  margin-top: 150px;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin: 10px;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Número da Sorte</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>GERADOR DE NÚMEROS DA SORTE</h1>
+    <div id="first">
+      <form method="get">
+        <input
+          id="range"
+          type="number"
+          placeholder="RANGE DE NÚMEROS"
+          min="1"
+        />
+        <input
+          id="quantidade"
+          type="number"
+          placeholder="NÚMEROS SORTEADOS"
+          max="6"
+        />
+      </form>
+    </div>
+    <div id="button">
+      <input type="button" value="GERAR" />
+    </div>
+    <ul></ul>
+  </body>
+  <script src="script.js"></script>
+</html>
