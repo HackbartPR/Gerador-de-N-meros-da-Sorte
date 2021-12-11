@@ -1,2 +1,2 @@
-# Gerador-de-Numeros-da-Sorte
-Página Web para gerar números aleatórios usados para sorteios!
+<h1>Gerador de Números da Sorte </h1>
+
